@@ -21,22 +21,6 @@ A real estate web API platform similar to Somon.tj but focused exclusively on th
 | Architecture | Clean Architecture | — |
 | Background Jobs | BackgroundService (IHostedService) | Built-in |
 
-## 3. Architecture — Clean Architecture Layers
-
-```
-Solution: RealEstate.sln
-│
-├── src/
-│   ├── RealEstate.Domain/          ← Entities, Enums, Interfaces (no dependencies)
-│   ├── RealEstate.Application/     ← Use Cases, DTOs, Interfaces, Services
-│   ├── RealEstate.Infrastructure/  ← EF Core, Repositories, JWT, Cache, Background
-│   └── RealEstate.API/             ← Controllers, Middleware, Program.cs, Swagger
-│
-└── tests/
-    ├── RealEstate.UnitTests/
-    └── RealEstate.IntegrationTests/
-```
-
 ## 4. Full Folder & File Structure
 
 ```
@@ -162,21 +146,6 @@ RealEstate.sln
 │           ├── AuthExtensions.cs
 │           └── CorsExtensions.cs
 │
-└── tests/
-    ├── RealEstate.UnitTests/
-    │   ├── RealEstate.UnitTests.csproj
-    │   ├── Services/
-    │   │   ├── HavliServiceTests.cs
-    │   │   ├── DomApartmentServiceTests.cs
-    │   │   └── RentalServiceTests.cs
-    │   └── Repositories/
-    │       └── GenericRepositoryTests.cs
-    └── RealEstate.IntegrationTests/
-        ├── RealEstate.IntegrationTests.csproj
-        └── Controllers/
-            ├── AuthControllerTests.cs
-            └── HavliControllerTests.cs
-```
 
 ## 5. NuGet Packages — Per Project
 
@@ -190,8 +159,8 @@ No external NuGet packages required.
 ```
 Install via: dotnet add package <PackageName> --version <Version>
 
-AutoMapper                            → 13.0.1
-AutoMapper.Extensions.Microsoft.DependencyInjection → 13.0.1
+AutoMapper                            → 12.0.1
+AutoMapper.Extensions.Microsoft.DependencyInjection → 12.0.1
 FluentValidation                      → 11.9.2
 FluentValidation.DependencyInjectionExtensions → 11.9.2
 Microsoft.Extensions.Logging.Abstractions → 9.0.0
