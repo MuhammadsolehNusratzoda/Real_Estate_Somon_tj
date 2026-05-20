@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealEstate.API</name>
+    </assembly>
+    <members>
+        <member name="M:RealEstate.API.Controllers.AdminController.Dashboard">
+            <summary>Get dashboard statistics [Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AdminController.GetAllProperties">
+            <summary>Get all properties across all types [Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AdminController.ChangeStatus(System.Guid,System.Int32,System.String)">
+            <summary>Change property status [Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AdminController.ForceDelete(System.Guid,System.String)">
+            <summary>Force-delete any property [Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AdminController.GetUsers">
+            <summary>Get all users [Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AdminController.BlockUser(System.String)">
+            <summary>Block or unblock a user [Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AdminController.DeleteUser(System.String)">
+            <summary>Delete a user [Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AuthController.Register(RealEstate.Application.DTOs.Auth.RegisterDto)">
+            <summary>Register a new Seller or Buyer</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AuthController.Login(RealEstate.Application.DTOs.Auth.LoginDto)">
+            <summary>Login and receive JWT + RefreshToken</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AuthController.RefreshToken(System.String)">
+            <summary>Refresh an expired JWT</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AuthController.Logout">
+            <summary>Logout — invalidate refresh token</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.AuthController.Me">
+            <summary>Get current user profile</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.DomApartmentController.GetAll(RealEstate.Application.DTOs.Filter.DomFilterDto)">
+            <summary>Get all Dom apartments with filter and pagination</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.DomApartmentController.GetById(System.Guid)">
+            <summary>Get a single Dom apartment by ID</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.DomApartmentController.Create(RealEstate.Application.DTOs.Property.DomApartmentCreateDto)">
+            <summary>Create a Dom apartment listing [Seller/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.DomApartmentController.Update(System.Guid,RealEstate.Application.DTOs.Property.DomApartmentUpdateDto)">
+            <summary>Update a Dom apartment [Owner/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.DomApartmentController.Delete(System.Guid)">
+            <summary>Delete a Dom apartment [Owner/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.DomApartmentController.MyListings">
+            <summary>Seller's own Dom listings</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.HavliController.GetAll(RealEstate.Application.DTOs.Filter.HavliFilterDto)">
+            <summary>Get all Havli listings with filter and pagination</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.HavliController.GetById(System.Guid)">
+            <summary>Get a single Havli by ID</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.HavliController.Create(RealEstate.Application.DTOs.Property.HavliCreateDto)">
+            <summary>Create a new Havli listing [Seller/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.HavliController.Update(System.Guid,RealEstate.Application.DTOs.Property.HavliUpdateDto)">
+            <summary>Update a Havli listing [Owner/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.HavliController.Delete(System.Guid)">
+            <summary>Delete a Havli listing [Owner/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.HavliController.MyListings">
+            <summary>Get current seller's Havli listings</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.RentalController.GetAll(RealEstate.Application.DTOs.Filter.RentalFilterDto)">
+            <summary>Get all Rental apartments with filter and pagination</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.RentalController.GetById(System.Guid)">
+            <summary>Get a single Rental by ID</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.RentalController.Create(RealEstate.Application.DTOs.Property.RentalApartmentCreateDto)">
+            <summary>Create a Rental listing [Seller/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.RentalController.Update(System.Guid,RealEstate.Application.DTOs.Property.RentalApartmentUpdateDto)">
+            <summary>Update a Rental listing [Owner/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.RentalController.Delete(System.Guid)">
+            <summary>Delete a Rental listing [Owner/Admin]</summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.RentalController.MyListings">
+            <summary>Seller's own Rental listings</summary>
+        </member>
+    </members>
+</doc>

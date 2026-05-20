@@ -1,0 +1,11 @@
+namespace RealEstate.API.Extensions;
+
+public static class CorsExtensions
+{
+    public static IServiceCollection AddCorsPolicy(this IServiceCollection services)
+    {
+        services.AddCors(opts => opts.AddPolicy("AllowAll", policy =>
+            policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
+        return services;
+    }
+}
