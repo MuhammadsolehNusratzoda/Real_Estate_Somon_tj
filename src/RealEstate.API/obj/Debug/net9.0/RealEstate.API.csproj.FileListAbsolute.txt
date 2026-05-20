@@ -138,3 +138,4 @@ C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.API\obj\Debug\net9.0\Rea
 C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.API\obj\Debug\net9.0\RealEstate.API.pdb
 C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.API\obj\Debug\net9.0\RealEstate.API.genruntimeconfig.cache
 C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.API\obj\Debug\net9.0\ref\RealEstate.API.dll
+C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.API\obj\Debug\net9.0\RealEstate.API.sourcelink.json

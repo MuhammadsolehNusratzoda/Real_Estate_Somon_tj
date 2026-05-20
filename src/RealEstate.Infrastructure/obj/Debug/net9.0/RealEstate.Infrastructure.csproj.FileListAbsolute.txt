@@ -17,3 +17,4 @@ C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.Infrastructure\obj\Debug
 C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.Infrastructure\obj\Debug\net9.0\RealEstate.Infrastructure.pdb
 C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.Infrastructure\obj\Debug\net9.0\RealEstate.Infrastructure.genruntimeconfig.cache
 C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.Infrastructure\obj\Debug\net9.0\ref\RealEstate.Infrastructure.dll
+C:\Users\Сухайб\Desktop\RealEstate\src\RealEstate.Infrastructure\obj\Debug\net9.0\RealEstate.Infrastructure.sourcelink.json

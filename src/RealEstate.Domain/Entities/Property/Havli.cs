@@ -9,6 +9,5 @@ public class Havli : Property
     public bool HasPool { get; set; }
     public bool HasBasement { get; set; }
     public string FenceType { get; set; } = string.Empty;
-
     public Havli() { Type = PropertyType.Havli; ListingType = ListingType.ForSale; }
 }
